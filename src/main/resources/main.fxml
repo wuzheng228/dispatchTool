@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="582.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zzspace.controller.MainController">
+   <children>
+       <TextArea id="textArea" fx:id="textAreaInput" layoutX="13.0" layoutY="21.0" prefHeight="109.0" prefWidth="219.0" />
+      <Button fx:id="btnRec" layoutX="245.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#recognizeClipboardText" prefHeight="30.0" prefWidth="69.0" text="识别" />
+      <TextField fx:id="textName" layoutX="24.0" layoutY="181.0" prefHeight="30.0" prefWidth="77.0" text="伟大时代" />
+      <TextField fx:id="textPhone" layoutX="125.0" layoutY="181.0" prefHeight="30.0" prefWidth="195.0" />
+      <TextField fx:id="textChennelPolicy" layoutX="25.0" layoutY="238.0" prefHeight="30.0" prefWidth="195.0" text="21011174931482910548" />
+      <TextField fx:id="textPolicy" layoutX="27.0" layoutY="293.0" prefHeight="30.0" prefWidth="195.0" />
+      <TextField fx:id="textAddress" layoutX="27.0" layoutY="352.0" prefHeight="30.0" prefWidth="77.0" />
+      <TextArea fx:id="textAreaOutput" layoutX="9.0" layoutY="460.0" prefHeight="90.0" prefWidth="327.0" />
+      <Button fx:id="btnMergeCopy" layoutX="93.0" layoutY="416.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="158.0" text="拼接并复制" />
+      <Label layoutX="25.0" layoutY="154.0" text="姓名" />
+      <Label layoutX="123.0" layoutY="154.0" text="电话" />
+      <Label layoutX="24.0" layoutY="218.0" prefHeight="20.0" prefWidth="77.0" text="渠道保单号" />
+      <Label layoutX="24.0" layoutY="273.0" text="保单号" />
+      <Label layoutX="25.0" layoutY="332.0" text="网点" />
+      <Button layoutX="255.0" layoutY="238.0" mnemonicParsing="false" text="复制" />
+      <Button layoutX="255.0" layoutY="293.0" mnemonicParsing="false" text="复制" />
+      <RadioButton fx:id="rbtnPm" layoutX="144.0" layoutY="357.0" mnemonicParsing="false" text="品码" />
+      <RadioButton fx:id="rbtnJd" layoutX="235.0" layoutY="357.0" mnemonicParsing="false" text="京东" />
+   </children>
+
+</AnchorPane>
