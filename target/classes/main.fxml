@@ -10,9 +10,9 @@
    <children>
        <TextArea id="textArea" fx:id="textAreaInput" layoutX="13.0" layoutY="21.0" prefHeight="109.0" prefWidth="219.0" />
       <Button fx:id="btnRec" layoutX="245.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#recognizeClipboardText" prefHeight="30.0" prefWidth="69.0" text="识别" />
-      <TextField fx:id="textName" layoutX="24.0" layoutY="181.0" prefHeight="30.0" prefWidth="77.0" text="伟大时代" />
+      <TextField fx:id="textName" layoutX="24.0" layoutY="181.0" prefHeight="30.0" prefWidth="77.0"  />
       <TextField fx:id="textPhone" layoutX="125.0" layoutY="181.0" prefHeight="30.0" prefWidth="195.0" />
-      <TextField fx:id="textChennelPolicy" layoutX="25.0" layoutY="238.0" prefHeight="30.0" prefWidth="195.0" text="21011174931482910548" />
+      <TextField fx:id="textChennelPolicy" layoutX="25.0" layoutY="238.0" prefHeight="30.0" prefWidth="195.0"  />
       <TextField fx:id="textPolicy" layoutX="27.0" layoutY="293.0" prefHeight="30.0" prefWidth="195.0" />
       <TextField fx:id="textAddress" layoutX="27.0" layoutY="352.0" prefHeight="30.0" prefWidth="77.0" />
       <TextArea fx:id="textAreaOutput" layoutX="9.0" layoutY="460.0" prefHeight="90.0" prefWidth="327.0" />
